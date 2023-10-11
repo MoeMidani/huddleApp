@@ -38,14 +38,14 @@
 /* Begin PBXFileReference section */
 		2173C9E02ACD1A0600E0E61D /* questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questions.swift; sourceTree = "<group>"; };
 		2173C9E22ACD1C0D00E0E61D /* circleQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = circleQuestionView.swift; sourceTree = "<group>"; };
-		2DA292252ACAF355006FAAEB /* mobPorgrammingHuddle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mobPorgrammingHuddle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DA292252ACAF355006FAAEB /* Huddle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Huddle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DA292282ACAF355006FAAEB /* mobPorgrammingHuddleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobPorgrammingHuddleApp.swift; sourceTree = "<group>"; };
 		2DA2922A2ACAF355006FAAEB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2DA2922C2ACAF356006FAAEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DA2922F2ACAF356006FAAEB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2DA292352ACAF356006FAAEB /* mobPorgrammingHuddleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mobPorgrammingHuddleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DA292352ACAF356006FAAEB /* HuddleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuddleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DA292392ACAF356006FAAEB /* mobPorgrammingHuddleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobPorgrammingHuddleTests.swift; sourceTree = "<group>"; };
-		2DA2923F2ACAF356006FAAEB /* mobPorgrammingHuddleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mobPorgrammingHuddleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DA2923F2ACAF356006FAAEB /* HuddleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuddleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DA292432ACAF356006FAAEB /* mobPorgrammingHuddleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobPorgrammingHuddleUITests.swift; sourceTree = "<group>"; };
 		2DA292452ACAF356006FAAEB /* mobPorgrammingHuddleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobPorgrammingHuddleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,9 +88,9 @@
 		2DA292262ACAF355006FAAEB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2DA292252ACAF355006FAAEB /* mobPorgrammingHuddle.app */,
-				2DA292352ACAF356006FAAEB /* mobPorgrammingHuddleTests.xctest */,
-				2DA2923F2ACAF356006FAAEB /* mobPorgrammingHuddleUITests.xctest */,
+				2DA292252ACAF355006FAAEB /* Huddle.app */,
+				2DA292352ACAF356006FAAEB /* HuddleTests.xctest */,
+				2DA2923F2ACAF356006FAAEB /* HuddleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,9 +136,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2DA292242ACAF355006FAAEB /* mobPorgrammingHuddle */ = {
+		2DA292242ACAF355006FAAEB /* Huddle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2DA292492ACAF356006FAAEB /* Build configuration list for PBXNativeTarget "mobPorgrammingHuddle" */;
+			buildConfigurationList = 2DA292492ACAF356006FAAEB /* Build configuration list for PBXNativeTarget "Huddle" */;
 			buildPhases = (
 				2DA292212ACAF355006FAAEB /* Sources */,
 				2DA292222ACAF355006FAAEB /* Frameworks */,
@@ -148,14 +148,14 @@
 			);
 			dependencies = (
 			);
-			name = mobPorgrammingHuddle;
+			name = Huddle;
 			productName = mobPorgrammingHuddle;
-			productReference = 2DA292252ACAF355006FAAEB /* mobPorgrammingHuddle.app */;
+			productReference = 2DA292252ACAF355006FAAEB /* Huddle.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2DA292342ACAF356006FAAEB /* mobPorgrammingHuddleTests */ = {
+		2DA292342ACAF356006FAAEB /* HuddleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2DA2924C2ACAF356006FAAEB /* Build configuration list for PBXNativeTarget "mobPorgrammingHuddleTests" */;
+			buildConfigurationList = 2DA2924C2ACAF356006FAAEB /* Build configuration list for PBXNativeTarget "HuddleTests" */;
 			buildPhases = (
 				2DA292312ACAF356006FAAEB /* Sources */,
 				2DA292322ACAF356006FAAEB /* Frameworks */,
@@ -166,14 +166,14 @@
 			dependencies = (
 				2DA292372ACAF356006FAAEB /* PBXTargetDependency */,
 			);
-			name = mobPorgrammingHuddleTests;
+			name = HuddleTests;
 			productName = mobPorgrammingHuddleTests;
-			productReference = 2DA292352ACAF356006FAAEB /* mobPorgrammingHuddleTests.xctest */;
+			productReference = 2DA292352ACAF356006FAAEB /* HuddleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2DA2923E2ACAF356006FAAEB /* mobPorgrammingHuddleUITests */ = {
+		2DA2923E2ACAF356006FAAEB /* HuddleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2DA2924F2ACAF356006FAAEB /* Build configuration list for PBXNativeTarget "mobPorgrammingHuddleUITests" */;
+			buildConfigurationList = 2DA2924F2ACAF356006FAAEB /* Build configuration list for PBXNativeTarget "HuddleUITests" */;
 			buildPhases = (
 				2DA2923B2ACAF356006FAAEB /* Sources */,
 				2DA2923C2ACAF356006FAAEB /* Frameworks */,
@@ -184,9 +184,9 @@
 			dependencies = (
 				2DA292412ACAF356006FAAEB /* PBXTargetDependency */,
 			);
-			name = mobPorgrammingHuddleUITests;
+			name = HuddleUITests;
 			productName = mobPorgrammingHuddleUITests;
-			productReference = 2DA2923F2ACAF356006FAAEB /* mobPorgrammingHuddleUITests.xctest */;
+			productReference = 2DA2923F2ACAF356006FAAEB /* HuddleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -212,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2DA292202ACAF355006FAAEB /* Build configuration list for PBXProject "mobPorgrammingHuddle" */;
+			buildConfigurationList = 2DA292202ACAF355006FAAEB /* Build configuration list for PBXProject "Huddle" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -225,9 +225,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2DA292242ACAF355006FAAEB /* mobPorgrammingHuddle */,
-				2DA292342ACAF356006FAAEB /* mobPorgrammingHuddleTests */,
-				2DA2923E2ACAF356006FAAEB /* mobPorgrammingHuddleUITests */,
+				2DA292242ACAF355006FAAEB /* Huddle */,
+				2DA292342ACAF356006FAAEB /* HuddleTests */,
+				2DA2923E2ACAF356006FAAEB /* HuddleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -292,12 +292,12 @@
 /* Begin PBXTargetDependency section */
 		2DA292372ACAF356006FAAEB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2DA292242ACAF355006FAAEB /* mobPorgrammingHuddle */;
+			target = 2DA292242ACAF355006FAAEB /* Huddle */;
 			targetProxy = 2DA292362ACAF356006FAAEB /* PBXContainerItemProxy */;
 		};
 		2DA292412ACAF356006FAAEB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2DA292242ACAF355006FAAEB /* mobPorgrammingHuddle */;
+			target = 2DA292242ACAF355006FAAEB /* Huddle */;
 			targetProxy = 2DA292402ACAF356006FAAEB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -430,6 +430,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"mobPorgrammingHuddle/Preview Content\"";
+				DEVELOPMENT_TEAM = M8ZG8KDA6A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -458,6 +459,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"mobPorgrammingHuddle/Preview Content\"";
+				DEVELOPMENT_TEAM = M8ZG8KDA6A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -493,7 +495,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mobPorgrammingHuddle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mobPorgrammingHuddle";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Huddle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Huddle";
 			};
 			name = Debug;
 		};
@@ -512,7 +514,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mobPorgrammingHuddle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mobPorgrammingHuddle";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Huddle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Huddle";
 			};
 			name = Release;
 		};
@@ -553,7 +555,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2DA292202ACAF355006FAAEB /* Build configuration list for PBXProject "mobPorgrammingHuddle" */ = {
+		2DA292202ACAF355006FAAEB /* Build configuration list for PBXProject "Huddle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2DA292472ACAF356006FAAEB /* Debug */,
@@ -562,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2DA292492ACAF356006FAAEB /* Build configuration list for PBXNativeTarget "mobPorgrammingHuddle" */ = {
+		2DA292492ACAF356006FAAEB /* Build configuration list for PBXNativeTarget "Huddle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2DA2924A2ACAF356006FAAEB /* Debug */,
@@ -571,7 +573,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2DA2924C2ACAF356006FAAEB /* Build configuration list for PBXNativeTarget "mobPorgrammingHuddleTests" */ = {
+		2DA2924C2ACAF356006FAAEB /* Build configuration list for PBXNativeTarget "HuddleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2DA2924D2ACAF356006FAAEB /* Debug */,
@@ -580,7 +582,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2DA2924F2ACAF356006FAAEB /* Build configuration list for PBXNativeTarget "mobPorgrammingHuddleUITests" */ = {
+		2DA2924F2ACAF356006FAAEB /* Build configuration list for PBXNativeTarget "HuddleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2DA292502ACAF356006FAAEB /* Debug */,
